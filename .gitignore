@@ -1,0 +1,15 @@
+imdb_clone/db.sqlite3
+imdb_clone/manage.py
+
+imdb_clone/imdb_clone/
+imdb_clone/user_app/__pycache__/
+imdb_clone/user_app/migrations/
+imdb_clone/user_app/__init__.py
+imdb_clone/user_app/api/__pycache__
+
+imdb_clone/watchlist/__pycache__/
+imdb_clone/watchlist/migrations/
+imdb_clone/watchlist/__init__
+imdb_clone/watchlist/api/__pycache__
+
+env/

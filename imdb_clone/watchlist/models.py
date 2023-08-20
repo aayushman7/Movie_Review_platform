@@ -13,7 +13,8 @@ class WatchList(models.Model):
     name=models.CharField(max_length=50)
     stream=models.ForeignKey(StreamPlatform,on_delete=models.CASCADE,related_name="watchlist")
     is_active=models.BooleanField(default=True)
-
+    num_of_reviews=models.IntegerField(default=0)
+    avg_rating=models.IntegerField(default=0)
     def __str__(self) -> str:
         return self.name
 
